@@ -1,0 +1,11 @@
+export const STATUS = "Status";
+export const GENDER = "Gender";
+export const SPECIES = "Species";
+export const SELECTED_FILTER_TITLE = "Selected Filters";
+export const LOADING_TEXT = "Loading";
+export const PREV_BUTTON = "Prev";
+export const NEXT_BUTTON = "Next";
+export const SEARCH_NAME_TEXT = "Search by name";
+export const FILTER_TEXT = "Filters";
+export const NO_FILTER_SELECTED_TEXT = "No filters selected";
+export const URL = "https://rickandmortyapi.com/api/character/?";
