@@ -11,6 +11,8 @@ const styles = {
   name: {
     verticalAlign: "top",
     marginLeft: "16px",
+    fontSize: "16px",
+    fontFamily: "Roboto-Light"
   },
   icon: {
     height: "20px",

@@ -31,12 +31,13 @@ const styles = {
   name: {
     margin: 0,
     marginLeft: "8px",
-    fontWeight: 300,
+    fontFamily:"Roboto-Thin",
+    fontSize: "18px"
   },
   info: {
     margin: "0 0 8px 8px",
     fontSize: "12px",
-    fontWeight: 300,
+    fontFamily: "Roboto-Thin"
   },
 };
 

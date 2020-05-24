@@ -31,16 +31,22 @@ const styles = {
   header: {
     margin: 0,
     marginBottom: "16px",
+    fontSize: "22px",
+    fontFamily: "Roboto-Bold"
   },
   searchButton: {
     background: `url(${SearchIcon}) no-repeat center`,
-    backgroundSize: "65%",
+    backgroundSize: "50%",
     height: "37px",
     width: "10%",
     verticalAlign: "top",
     border: "1px solid grey",
     borderLeft: 0,
-    [device.tablet]: {width: "15%",}
+    cursor: "pointer",
+    [device.tablet]: {
+      width: "15%",
+      backgroundSize: "65%",
+    },
   },
   form: {
     display: "inline-block",
@@ -58,11 +64,11 @@ const styles = {
     background: "#f1f1f1",
     padding: "8px",
     fontSize: "16px",
+    fontFamily: "Roboto-Thin",
     [device.mobileL]: {
       width: "90%",
     },
-    [device.tablet]: {width: "85%",}
-    
+    [device.tablet]: { width: "85%" },
   },
   searchButtonWrapper: {
     marginBottom: "16px",
@@ -73,6 +79,7 @@ const styles = {
   inputLabel: {
     display: "block",
     marginBottom: "8px",
+    fontSize: "16px"
   },
   error: {
     textAlign: "center",
@@ -83,6 +90,8 @@ const styles = {
     height: "30px",
     margin: 0,
     marginBottom: "8px",
+    fontSize: "16px",
+    fontFamily: "Roboto-Thin"
   },
 };
 

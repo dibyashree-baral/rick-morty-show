@@ -11,12 +11,15 @@ const styles = {
     height: "32px",
     fontSize: "16px",
     border: 'none',
+    cursor: 'pointer',
     color: "#FFF",
     background: "#0074d9",
     "&:disabled": {
       background: "#cccccc",
       color: "#666666",
+      cursor:"not-allowed"
     },
+    "&:hover":{ background: "#00aad9"},
     [device.mobileL]: {
       width: "90px",
       height: "40px",

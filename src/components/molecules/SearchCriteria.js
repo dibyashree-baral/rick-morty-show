@@ -49,6 +49,8 @@ const styles = {
     left: 0,
     backgroundColor: "#FFF",
     padding: "10px 16px 10px 16px",
+    fontSize: "20px",
+    fontFamily: "Roboto-Light"
   },
 };
 

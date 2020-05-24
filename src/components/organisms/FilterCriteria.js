@@ -22,6 +22,8 @@ const styles = {
   header: {
     margin: 0,
     marginBottom: "16px",
+    fontSize: "22px",
+    fontFamily: "Roboto-Bold"
   },
 };
 

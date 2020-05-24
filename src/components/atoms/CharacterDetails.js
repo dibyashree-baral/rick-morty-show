@@ -23,6 +23,7 @@ const styles = {
     border: 0,
     display: "inline-block",
     width: "15%",
+    fontFamily: "Roboto-Thin",
     fontSize: "12px",
   },
   value: {
@@ -30,6 +31,7 @@ const styles = {
     float: "right",
     color: "yellow",
     width: "60%",
+    fontFamily: "Roboto-Light",
     [device.mobileM]: { width: "40%" },
     whiteSpace: "nowrap",
     overflow: "hidden",
