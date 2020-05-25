@@ -25,8 +25,8 @@ const styles = {
       borderRadius: "10px",
     },
     "&::-webkit-scrollbar": {
-      width: "8px",
-      height: "8px"
+      width: "4px",
+      height: "4px"
     },
     "&::-webkit-scrollbar-thumb": {
       backgroundColor: "#9D9D9D",
